@@ -1,0 +1,9 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+// Routes for the URL Shortener
+Route::set('Uploader', 'admin/files')
+	->defaults(array(
+		'controller' => 'Files',
+		'action'     => 'index',
+	));
+
